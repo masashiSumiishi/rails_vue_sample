@@ -9,6 +9,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import EmployeeIndexPage from 'EmployeeIndexPage.vue'
 import EmployeeDetailPage from 'EmployeeDetailPage.vue'
+import EmployeeNewPage from 'EmployeeNewPage.vue'
 
 const router = new VueRouter({
   routes: [
@@ -16,7 +17,10 @@ const router = new VueRouter({
       component: EmployeeIndexPage },
     { path: '/employees/:id(\\d+)',
       name: 'EmployeeDetailPage',
-      component: EmployeeDetailPage }
+      component: EmployeeDetailPage },
+    { path: '/employees/new',
+      name: 'EmployeeNewPage',
+      component: EmployeeNewPage }
   ]
 })
 
