@@ -26,7 +26,7 @@ class Api::V1::EmployeesController < ApiController
   end
 
   def update
-    if @employee.update(employee_params)
+    if @employee.update_attributes(employee_params)
       head :no_content
     else
       render json: { errors: @employee.errors.full_messages}, status: :unprocessable_entity

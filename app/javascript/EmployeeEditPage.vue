@@ -27,8 +27,9 @@ export default {
              this.$router.push({ name: 'EmployeeDetailPage', params: { id: this.employee.id } })
            })
            .catch(error => {
+             debugger
              console.error(error);
-             if (error.response.data && error.response.data.error) {
+             if (error.response.data && error.response.data.errors) {
                this.errors = error.response.data.errors;
              }
            });
