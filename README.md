@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RubyとVueで作成したサンプルです
+railsでAPIを作成し、Vueで画面を作っています
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+以下の記事を参考にさせて頂きました
+Ruby on Rails, Vue.jsで始めるモダンWebアプリケーション入門
+```
+https://qiita.com/tatsurou313/items/4f18c0d4d231e2fb55f4
+```
